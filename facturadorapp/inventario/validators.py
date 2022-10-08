@@ -20,5 +20,5 @@ def validar_longitud_minima_texto(value):
         raise ValidationError("El texto debe tener más de 3 letras")
 
 def validar_cantidad_minima_items_factura(value):
-    if len(value) < 1:
+    if value < 1:
         raise ValidationError("La cantidad de items debe ser mayor a 1")
