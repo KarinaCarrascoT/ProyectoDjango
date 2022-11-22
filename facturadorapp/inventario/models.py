@@ -1,5 +1,4 @@
 from enum import unique
-from msilib.schema import _Validation_records
 from unittest.util import _MAX_LENGTH
 from django.db import models
 from django.conf import settings
